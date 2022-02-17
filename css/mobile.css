@@ -1,0 +1,128 @@
+@media (max-width: 750px) and (min-width: 319px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar ul {
+    margin-top: 0.5rem;
+  }
+  .navbar ul li {
+    padding: 1rem 0.4rem;
+  }
+
+  /* About */
+  main .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  #about .abt {
+    margin-top: 0;
+  }
+  main .container img {
+    height: 40%;
+    width: 40%;
+  }
+  main .container .info {
+    text-align: center;
+    margin-top: 0;
+  }
+  main .container .info p {
+    text-align: justify;
+  }
+
+  header .header-content .header-info h1 {
+    font-size: var(--h1-font-size);
+  }
+  header .header-content .header-info .desc-header {
+    font-size: var(--normal-font-size);
+  }
+  .heading-skills,
+  .desc-project {
+    text-align: justify;
+  }
+  .desc-skills {
+    text-align: justify;
+    line-height: normal;
+  }
+  .button {
+    width: 100px;
+    font-size: var(--normal-font-size);
+  }
+  main .abt {
+    margin-top: 2rem;
+  }
+
+  #contact {
+    margin-inline: 1rem;
+  }
+  #contact .contact-form h3 {
+    text-align: center;
+  }
+
+  #contact .contact-info {
+    display: grid;
+    gap: 0;
+  }
+  #contact .contact-info .flex-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #footer hr {
+    margin-inline: 1rem;
+  }
+  #footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .flex-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 750px) {
+  main .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  #about .abt {
+    margin-top: 0;
+  }
+  main .container img {
+    height: 40%;
+    width: 40%;
+  }
+  main .container .info {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  main .container .info p {
+    text-align: justify;
+  }
+
+  #contact {
+    margin-inline: 1rem;
+  }
+
+  #footer hr {
+    margin-inline: 1rem;
+  }
+  #footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 0;
+  }
+  .flex-resume {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
