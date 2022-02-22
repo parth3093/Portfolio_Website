@@ -9,6 +9,20 @@
   .navbar ul li {
     padding: 1rem 0.4rem;
   }
+  header .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    gap: 0;
+    margin: 2rem auto;
+  }
+  .svg-img {
+    height: 350px;
+    width: 350px;
+  }
 
   /* About */
   main .container {
@@ -33,7 +47,10 @@
   }
 
   header .header-content .header-info h1 {
-    font-size: var(--h1-font-size);
+    /* font-size: var(--h1-font-size);
+     */
+    font-size: 2.5rem;
+    font-weight: bolder;
   }
   header .header-content .header-info .desc-header {
     font-size: var(--normal-font-size);
@@ -86,6 +103,21 @@
 }
 
 @media (max-width: 950px) and (min-width: 750px) {
+  header .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    gap: 0;
+    margin: 2rem auto;
+  }
+  .svg-img {
+    height: 350px;
+    width: 350px;
+  }
+
   main .container {
     display: flex;
     flex-direction: column;

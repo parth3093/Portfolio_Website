@@ -44,20 +44,17 @@
 
 header .header-content {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-self: center;
   text-align: center;
-  row-gap: 2rem;
-  margin: 2rem auto;
+  gap: 7rem;
+  margin: 0 auto;
 }
-header .header-content img {
-  width: auto;
-  height: auto;
-  border-radius: 2rem;
+.svg-img {
+  width: 500px;
+  height: 500px;
 }
-
 header .header-content .header-info h1 {
   top: 0;
   right: 0;
