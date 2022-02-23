@@ -61,13 +61,13 @@ header .header-content .header-info h1 {
   right: 0;
   font-size: var(--biggest-font-size);
   font-weight: var(--font-semibold);
-  color: #333;
+  color: black;
 }
 header .header-content .header-info .desc-header {
   font-size: 1.3rem;
   margin-bottom: 2rem;
   font-weight: normal;
-  color: #333;
+  color: black;
 }
 
 /* About */
